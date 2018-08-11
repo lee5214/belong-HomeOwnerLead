@@ -13,8 +13,7 @@
     "server:dev": "NODE_ENV=dev cd server && npm start",
     "dev": "concurrently \" npm run client:dev \" \" npm run server:dev \" "
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "concurrently": "^3.6.1",
     "eslint": "^5.3.0",
