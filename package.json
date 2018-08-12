@@ -21,7 +21,6 @@
     "eslint-plugin-react": "^7.10.0",
     "nodemon": "^1.18.3",
     "prettier": "^1.14.2",
-    "babel-eslint": "^8.2.6",
     "eslint-config-prettier": "^2.9.0"
   }
 }
