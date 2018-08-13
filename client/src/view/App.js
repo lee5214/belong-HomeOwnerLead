@@ -2,9 +2,10 @@ import React, { Component } from "react";
 import styles from "./App.css";
 import Button from "@material-ui/core/Button";
 import Stepper from "../components/Stepper/index";
-import Instruction from "../components/Instruction";
-import History from "../components/History";
-import DataCollection from "../components/DataCollection";
+import Instruction from "../view/Instruction";
+import History from "../view/History";
+import DataCollection from "../view/DataCollection";
+import ProgressBar from "../components/ProgressBar";
 
 class App extends Component {
   render() {
@@ -18,9 +19,13 @@ class App extends Component {
             <History />
           </div>
         </div>
+
         <div className={styles.row}>
           <div className={`${styles.dataCollection} ${styles.section}`}>
             <DataCollection />
+          </div>
+          <div className={`${styles.progressBar} ${styles.section}`}>
+            <ProgressBar />
           </div>
         </div>
       </div>

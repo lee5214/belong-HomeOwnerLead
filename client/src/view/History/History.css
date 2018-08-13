@@ -1,0 +1,22 @@
+.sectionContainer {
+  height: 100%;
+  margin: auto;
+  padding: 1rem;
+  overflow: scroll; }
+
+.sectionTitle {
+  font-size: 20px; }
+
+.root {
+  height: 100%;
+  border: 1px solid black;
+  overflow: scroll; }
+
+.container {
+  height: 100%;
+  margin: auto;
+  padding: 1rem;
+  background: white;
+  overflow: scroll; }
+
+/*# sourceMappingURL=History.css.map */
