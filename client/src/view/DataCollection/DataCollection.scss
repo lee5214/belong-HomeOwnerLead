@@ -1,0 +1,1 @@
+@import "../../styles/section";$break-small: 1000px;.root{  min-height: calc(100vh - 404px - 2rem);  @media screen and (max-width: $break-small){    min-height: auto  }}

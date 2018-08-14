@@ -1,10 +1,11 @@
 import React from "react";
-import Steps from "./Steps";
+import Expand from "./Expand";
 import styles from "./Instruction.css";
 export default () => {
   return (
     <div className={styles.sectionContainer}>
-      <h1 className={styles.sectionTitle}>Instruction</h1> <Steps />{" "}
+      <h1 className={styles.sectionTitle}>Instruction</h1>
+      <Expand />
     </div>
   );
 };

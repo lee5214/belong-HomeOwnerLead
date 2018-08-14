@@ -1,1 +1,1 @@
-@import '../../styles/section';.root{  height: 100%;  border: 1px solid black;  overflow: scroll;}.container{  height: 100%;  //width: 400px;  margin:auto;  padding:1rem;  background: white;  overflow: scroll;}
+@import "../../styles/section";.listContainer {  width: 100%;  //backgroundColor: theme.palette.background.paper;  position: relative;  overflow: auto;  max-height: 300px;  border-radius: 2px;  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14),    0 2px 1px -1px rgba(0, 0, 0, 0.12);}
