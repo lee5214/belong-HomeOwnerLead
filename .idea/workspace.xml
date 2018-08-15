@@ -2,34 +2,262 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="362b722b-174b-4311-99e7-59d29961b853" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/actions/history/action_addHistory.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/actions/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/reducers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/reducers/reducer_History.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/view/DataCollection/DataCollection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/view/DataCollection/DataCollection.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/view/DataCollection/Form/TextMask.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/view/ProgressBar/ProgressBar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/config/credentials/ciKey.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/config/credentials/devKey.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/config/credentials/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/config/credentials/prodKey.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/actions/action_rent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/actions/action_step.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/components/Card/DataCollectionCard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/reducers/reducer_rent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/styles/card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/view/DataCollection/SubComp/AddressSearchBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/view/DataCollection/SubComp/ResultsContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/routes/rent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/DataCollection/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/view/DataCollection/Form/Form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/DataCollection/Form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/view/DataCollection/Form/Form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/DataCollection/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ProgressBar/ProgressBar.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/ProgressBar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/view/ProgressBar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/actions/history/action_addHistory.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/action_history.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/reducers/reducer_History.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/reducers/reducer_history.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/styles/section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/section.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/view/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/view/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/view/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/view/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/view/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/view/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/view/DataCollection/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/view/DataCollection/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/view/DataCollection/DataCollection.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/view/DataCollection/DataCollection.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/view/DataCollection/DataCollection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/view/DataCollection/DataCollection.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/view/DataCollection/Form/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/view/DataCollection/SubComp/Form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/view/DataCollection/Form/Form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/view/DataCollection/SubComp/common.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/view/DataCollection/Form/TextMask.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/view/DataCollection/SubComp/TextMask.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/view/History/History.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/view/History/History.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/view/History/History.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/view/History/History.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/view/History/History.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/view/History/History.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/view/History/History.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/view/History/History.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/view/Instruction/Instruction.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/view/Instruction/Instruction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/view/Instruction/Steps.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/view/Instruction/Expand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/babylon" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/jsesc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/code-frame/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/code-frame/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/code-frame/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/generator/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/generator/lib/buffer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/generator/lib/generators/base.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/generator/lib/generators/classes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/generator/lib/generators/expressions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/generator/lib/generators/flow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/generator/lib/generators/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/generator/lib/generators/jsx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/generator/lib/generators/methods.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/generator/lib/generators/modules.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/generator/lib/generators/statements.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/generator/lib/generators/template-literals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/generator/lib/generators/types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/generator/lib/generators/typescript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/generator/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/generator/lib/node/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/generator/lib/node/parentheses.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/generator/lib/node/whitespace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/generator/lib/printer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/generator/lib/source-map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/generator/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-function-name/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-function-name/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-function-name/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-get-function-arity/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-get-function-arity/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-get-function-arity/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-split-export-declaration/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-split-export-declaration/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helper-split-export-declaration/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/highlight/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/highlight/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/highlight/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/template/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/template/lib/builder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/template/lib/formatters.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/template/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/template/lib/literal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/template/lib/options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/template/lib/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/template/lib/populate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/template/lib/string.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/template/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/cache.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/context.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/hub.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/path/ancestry.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/path/comments.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/path/context.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/path/conversion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/path/evaluation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/path/family.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/path/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/path/inference/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/path/inference/inferer-reference.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/path/inference/inferers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/path/introspection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/path/lib/hoister.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/path/lib/removal-hooks.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/path/lib/virtual-types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/path/modification.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/path/removal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/path/replacement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/scope/binding.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/scope/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/scope/lib/renamer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/lib/visitors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/asserts/assertNode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/asserts/generated/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/builders/builder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/builders/flow/createTypeAnnotationBasedOnTypeof.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/builders/flow/createUnionTypeAnnotation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/builders/generated/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/builders/react/buildChildren.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/clone/clone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/clone/cloneDeep.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/clone/cloneNode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/clone/cloneWithoutLoc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/comments/addComment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/comments/addComments.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/comments/inheritInnerComments.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/comments/inheritLeadingComments.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/comments/inheritTrailingComments.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/comments/inheritsComments.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/comments/removeComments.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/constants/generated/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/constants/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/converters/ensureBlock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/converters/gatherSequenceExpressions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/converters/toBindingIdentifierName.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/converters/toBlock.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/converters/toComputedKey.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/converters/toExpression.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/converters/toIdentifier.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/converters/toKeyAlias.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/converters/toSequenceExpression.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/converters/toStatement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/converters/valueToNode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/definitions/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/definitions/es2015.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/definitions/experimental.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/definitions/flow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/definitions/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/definitions/jsx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/definitions/misc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/definitions/typescript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/definitions/utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/index.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/modifications/appendToMemberExpression.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/modifications/flow/removeTypeDuplicates.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/modifications/inherits.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/modifications/prependToMemberExpression.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/modifications/removeProperties.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/modifications/removePropertiesDeep.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/retrievers/getBindingIdentifiers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/retrievers/getOuterBindingIdentifiers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/traverse/traverse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/traverse/traverseFast.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/utils/inherit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/utils/react/cleanJSXElementLiteralChild.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/utils/shallowEqual.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/validators/buildMatchMemberExpression.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/validators/generated/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/validators/is.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/validators/isBinding.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/validators/isBlockScoped.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/validators/isImmutable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/validators/isLet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/validators/isNode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/validators/isNodesEquivalent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/validators/isReferenced.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/validators/isScope.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/validators/isSpecifierDefault.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/validators/isType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/validators/isValidES3Identifier.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/validators/isValidIdentifier.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/validators/isVar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/validators/matchesPattern.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/validators/react/isCompatTag.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/validators/react/isReactComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/lib/validators/validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/scripts/generateTypeHelpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/scripts/generators/generateAsserts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/scripts/generators/generateBuilders.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/scripts/generators/generateConstants.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/scripts/generators/generateValidators.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/scripts/utils/formatBuilderName.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/scripts/utils/formatCode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/types/scripts/utils/lowerFirst.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-eslint/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-eslint/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-eslint/lib/analyze-scope.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-eslint/lib/babylon-to-espree/attachComments.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-eslint/lib/babylon-to-espree/convertComments.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-eslint/lib/babylon-to-espree/convertTemplateType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-eslint/lib/babylon-to-espree/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-eslint/lib/babylon-to-espree/toAST.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-eslint/lib/babylon-to-espree/toToken.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-eslint/lib/babylon-to-espree/toTokens.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-eslint/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-eslint/lib/parse-with-patch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-eslint/lib/parse-with-scope.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-eslint/lib/parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-eslint/lib/patch-eslint-scope.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-eslint/lib/visitor-keys.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-eslint/node_modules/eslint-scope/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-eslint/node_modules/eslint-scope/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-eslint/node_modules/eslint-scope/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-eslint/node_modules/eslint-scope/lib/definition.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-eslint/node_modules/eslint-scope/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-eslint/node_modules/eslint-scope/lib/pattern-visitor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-eslint/node_modules/eslint-scope/lib/reference.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-eslint/node_modules/eslint-scope/lib/referencer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-eslint/node_modules/eslint-scope/lib/scope-manager.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-eslint/node_modules/eslint-scope/lib/scope.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-eslint/node_modules/eslint-scope/lib/variable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-eslint/node_modules/eslint-scope/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-eslint/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babylon/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babylon/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babylon/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babylon/bin/babylon.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babylon/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babylon/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/invariant/CHANGELOG.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/invariant/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/invariant/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/invariant/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/invariant/invariant.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/invariant/invariant.js.flow" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/invariant/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsesc/LICENSE-MIT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsesc/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsesc/bin/jsesc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsesc/jsesc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsesc/man/jsesc.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsesc/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/to-fast-properties/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/to-fast-properties/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/to-fast-properties/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/to-fast-properties/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/trim-right/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/trim-right/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/trim-right/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/trim-right/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/bin/www.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/bin/www.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/users.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -10128,33 +10356,33 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="NOTE" value="1" />
-          <entry key="css" value="18" />
-          <entry key="eslintrc" value="15" />
-          <entry key="gitignore" value="3" />
-          <entry key="html" value="1" />
-          <entry key="js" value="90" />
-          <entry key="json" value="30" />
+          <entry key="css" value="19" />
+          <entry key="eslintrc" value="16" />
+          <entry key="gitignore" value="4" />
+          <entry key="html" value="3" />
+          <entry key="js" value="128" />
+          <entry key="json" value="37" />
           <entry key="jsx" value="4" />
           <entry key="map" value="3" />
           <entry key="md" value="1" />
           <entry key="pug" value="3" />
-          <entry key="scss" value="35" />
+          <entry key="scss" value="42" />
           <entry key="svg" value="5" />
           <entry key="www" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="18" />
-          <entry key="Git file" value="3" />
-          <entry key="HTML" value="1" />
-          <entry key="JSON" value="45" />
+          <entry key="CSS" value="19" />
+          <entry key="Git file" value="4" />
+          <entry key="HTML" value="3" />
+          <entry key="JSON" value="53" />
           <entry key="JSX Harmony" value="4" />
           <entry key="Jade" value="3" />
-          <entry key="JavaScript" value="92" />
+          <entry key="JavaScript" value="130" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="SCSS" value="35" />
+          <entry key="SCSS" value="42" />
           <entry key="SVG" value="5" />
           <entry key="SourceMap" value="3" />
         </counts>
@@ -10170,13 +10398,13 @@
           <entry key="css" value="109" />
           <entry key="eslintrc" value="102" />
           <entry key="gitignore" value="71" />
-          <entry key="html" value="6" />
-          <entry key="js" value="8011" />
-          <entry key="json" value="550" />
+          <entry key="html" value="7" />
+          <entry key="js" value="15252" />
+          <entry key="json" value="569" />
           <entry key="jsx" value="28" />
           <entry key="md" value="736" />
-          <entry key="scss" value="2037" />
-          <entry key="txt" value="47" />
+          <entry key="scss" value="2174" />
+          <entry key="txt" value="71" />
           <entry key="www" value="59" />
         </counts>
       </usages-collector>
@@ -10184,13 +10412,13 @@
         <counts>
           <entry key="CSS" value="109" />
           <entry key="Git file" value="71" />
-          <entry key="HTML" value="6" />
-          <entry key="JSON" value="652" />
+          <entry key="HTML" value="7" />
+          <entry key="JSON" value="671" />
           <entry key="JSX Harmony" value="28" />
-          <entry key="JavaScript" value="8068" />
+          <entry key="JavaScript" value="15309" />
           <entry key="Markdown" value="736" />
-          <entry key="PLAIN_TEXT" value="49" />
-          <entry key="SCSS" value="2037" />
+          <entry key="PLAIN_TEXT" value="73" />
+          <entry key="SCSS" value="2174" />
         </counts>
       </usages-collector>
     </session>
@@ -10200,10 +10428,40 @@
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/src/view/History/History.js">
+            <entry file="file://$PROJECT_DIR$/client/src/actions/action_rent.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="333">
-                  <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+                <state relative-caret-position="442">
+                  <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/client/src/reducers/reducer_rent.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="340">
+                  <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/client/src/reducers/index.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="238">
+                  <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+                  <folding>
+                    <element signature="e#0#40#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/client/src/view/DataCollection/DataCollection.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="544">
+                  <caret line="127" column="25" selection-start-line="127" selection-start-column="25" selection-end-line="127" selection-end-column="25" />
                   <folding>
                     <element signature="e#0#41#0" expanded="true" />
                   </folding>
@@ -10212,10 +10470,10 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/src/view/DataCollection/Form/Form.js">
+            <entry file="file://$PROJECT_DIR$/client/src/view/DataCollection/SubComp/ResultsContainer.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="6409">
-                  <caret line="229" lean-forward="true" selection-start-line="229" selection-end-line="229" />
+                <state relative-caret-position="408">
+                  <caret line="12" selection-start-line="12" selection-end-line="12" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -10224,72 +10482,46 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/src/view/DataCollection/Form/TextMask.js">
+            <entry file="file://$PROJECT_DIR$/client/src/reducers/reducer_history.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="374">
+                  <caret line="11" selection-start-line="11" selection-end-line="11" />
                 </state>
               </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/src/view/DataCollection/DataCollection.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/src/view/DataCollection/Form/Form.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/src/view/DataCollection/Form/Form.css.map">
-              <provider editor-type-id="sourcemapFileViewerProvider" />
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/src/view/DataCollection/Form/Form.css">
-              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/client/src/view/DataCollection/DataCollection.js">
+            <entry file="file://$PROJECT_DIR$/server/routes/rent.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="373">
-                  <caret line="59" column="16" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
-                  <folding>
-                    <element signature="e#0#41#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="680">
+                  <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/src/view/App.scss">
+            <entry file="file://$PROJECT_DIR$/server/app.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+                <state relative-caret-position="306">
+                  <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/client/src/view/ProgressBar/ProgressBar.scss">
+            <entry file="file://$PROJECT_DIR$/package.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="34">
-                  <caret line="1" selection-start-line="1" selection-end-line="1" />
+                <state relative-caret-position="714">
+                  <caret line="21" selection-start-line="21" selection-end-line="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/server/package.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="476">
+                  <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
                 </state>
               </provider>
             </entry>
@@ -10323,7 +10555,7 @@
             <entry file="file://$PROJECT_DIR$/client/src/view/DataCollection/DataCollection.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="-6">
-                  <caret line="54" column="65" selection-start-line="54" selection-start-column="65" selection-end-line="54" selection-end-column="65" />
+                  <caret line="58" column="65" selection-start-line="58" selection-start-column="65" selection-end-line="58" selection-end-column="65" />
                   <folding>
                     <element signature="e#0#41#0" expanded="true" />
                   </folding>
@@ -10353,7 +10585,7 @@
             <entry file="file://$PROJECT_DIR$/client/src/view/History/History.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="172">
-                  <caret line="17" column="41" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="41" />
+                  <caret line="26" column="44" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="44" />
                   <folding>
                     <element signature="e#0#41#0" expanded="true" />
                   </folding>
@@ -10367,28 +10599,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>eslint</find>
-      <find>pretti</find>
-      <find>prettier</find>
-      <find>babel-eslint</find>
-      <find>jsx</find>
-      <find>babel</find>
-      <find>css-load</find>
-      <find>ecmaFeatures</find>
-      <find>theme</find>
-      <find>1000p</find>
-      <find>heig</find>
-      <find>200px</find>
-      <find>gener</find>
-      <find>hay</find>
-      <find>tool</find>
-      <find>redux</find>
-      <find>i'm</find>
-      <find>200</find>
-      <find>root</find>
-      <find>conta</find>
-      <find>test</find>
-      <find>email</find>
       <find>disab</find>
       <find>helper</find>
       <find>textma</find>
@@ -10397,6 +10607,28 @@
       <find>button</find>
       <find>100</find>
       <find>form</find>
+      <find>console</find>
+      <find>blur</find>
+      <find>phone.len</find>
+      <find>update</find>
+      <find>index</find>
+      <find>addicon</find>
+      <find>container</find>
+      <find>value</find>
+      <find>select</find>
+      <find>loadin</find>
+      <find>length</find>
+      <find>error</find>
+      <find>input your</find>
+      <find>enable</find>
+      <find>tool</find>
+      <find>searchterm</find>
+      <find>addhis</find>
+      <find>eng</find>
+      <find>engine</find>
+      <find>port</find>
+      <find>conso</find>
+      <find>test</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -10405,57 +10637,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/server/.eslintrc" />
-        <option value="$PROJECT_DIR$/.eslintrc" />
-        <option value="$PROJECT_DIR$/client/public/index.html" />
-        <option value="$PROJECT_DIR$/client/src/views/App.css" />
-        <option value="$PROJECT_DIR$/client/src/views/App.scss" />
-        <option value="$PROJECT_DIR$/NOTE.md" />
-        <option value="$PROJECT_DIR$/client/.eslintrc" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/client/src/views/App.js" />
-        <option value="$PROJECT_DIR$/client/src/components/Stepper/index.js" />
-        <option value="$PROJECT_DIR$/client/src/components/DataCollection/DataCollection.js" />
-        <option value="$PROJECT_DIR$/client/src/index.css" />
-        <option value="$PROJECT_DIR$/client/src/components/globalStyles/index.scss" />
-        <option value="$PROJECT_DIR$/client/src/components/History/History.scss" />
-        <option value="$PROJECT_DIR$/client/src/components/ProgressBar/ProgressBar.scss" />
-        <option value="$PROJECT_DIR$/client/src/components/ProgressBar/index.js" />
-        <option value="$PROJECT_DIR$/client/src/components/History/index.js" />
-        <option value="$PROJECT_DIR$/client/src/container/App.js" />
-        <option value="$PROJECT_DIR$/client/src/container/App.scss" />
-        <option value="$PROJECT_DIR$/client/src/components/DataCollection/DataCollection.scss" />
-        <option value="$PROJECT_DIR$/client/src/components/DataCollection/index.js" />
-        <option value="$PROJECT_DIR$/client/src/components/DataCollection/Form.js" />
-        <option value="$PROJECT_DIR$/client/src/components/Instruction/index.js" />
-        <option value="$PROJECT_DIR$/client/src/components/Instruction/Instruction.scss" />
-        <option value="$PROJECT_DIR$/client/src/components/Instruction/Steps.js" />
-        <option value="$PROJECT_DIR$/client/src/view/Instruction/Instruction.scss" />
-        <option value="$PROJECT_DIR$/client/src/view/Instruction/index.js" />
-        <option value="$PROJECT_DIR$/client/src/view/History/index.js" />
-        <option value="$PROJECT_DIR$/client/src/actions/index.js" />
-        <option value="$PROJECT_DIR$/client/src/reducers/index.js" />
         <option value="$PROJECT_DIR$/client/src/reducers/reducer_History.js" />
         <option value="$PROJECT_DIR$/client/src/actions/history/action_addHistory.js" />
-        <option value="$PROJECT_DIR$/client/src/styles/section.scss" />
         <option value="$PROJECT_DIR$/client/src/view/Instruction/Instruction.js" />
         <option value="$PROJECT_DIR$/client/src/view/Instruction/Expand.js" />
-        <option value="$PROJECT_DIR$/client/src/index.js" />
-        <option value="$PROJECT_DIR$/client/package.json" />
         <option value="$PROJECT_DIR$/client/src/view/History/StickyList.js" />
-        <option value="$PROJECT_DIR$/client/src/view/History/History.js" />
         <option value="$PROJECT_DIR$/client/src/view/DataCollection/index.js" />
         <option value="$PROJECT_DIR$/client/src/view/History/History.scss" />
         <option value="$PROJECT_DIR$/client/src/view/DataCollection/ProgressBar/ProgressBar.scss" />
         <option value="$PROJECT_DIR$/client/src/view/DataCollection/ProgressBar/index.js" />
         <option value="$PROJECT_DIR$/client/src/view/App.js" />
-        <option value="$PROJECT_DIR$/client/src/view/DataCollection/DataCollection.scss" />
         <option value="$PROJECT_DIR$/client/src/components/DataCollection/Form.scss" />
         <option value="$PROJECT_DIR$/client/src/view/App.scss" />
         <option value="$PROJECT_DIR$/client/src/view/DataCollection/Form/Form.scss" />
         <option value="$PROJECT_DIR$/client/src/view/DataCollection/Form/TeskMask.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/client/src/view/DataCollection/Form/TextMask.js" />
+        <option value="$PROJECT_DIR$/client/public/index.html" />
+        <option value="$PROJECT_DIR$/client/src/actions/step/action_step.js" />
+        <option value="$PROJECT_DIR$/client/src/actions/action_step.js" />
+        <option value="$PROJECT_DIR$/client/src/view/DataCollection/Form/AddressSearchBar.scss" />
+        <option value="$PROJECT_DIR$/client/config/credentials/prodKey.js" />
+        <option value="$PROJECT_DIR$/client/config/credentials/index.js" />
+        <option value="$PROJECT_DIR$/client/config/credentials/ciKey.js" />
+        <option value="$PROJECT_DIR$/client/config/credentials/devKey.js" />
         <option value="$PROJECT_DIR$/client/src/view/DataCollection/Form/Form.js" />
+        <option value="$PROJECT_DIR$/client/src/view/DataCollection/Form/AddressSearchBar.js" />
+        <option value="$PROJECT_DIR$/client/src/view/DataCollection/SubComp/ResultContainer.js" />
+        <option value="$PROJECT_DIR$/client/src/view/DataCollection/SubComp/Form.scss" />
+        <option value="$PROJECT_DIR$/client/src/view/DataCollection/SubComp/Form.js" />
+        <option value="$PROJECT_DIR$/client/src/view/DataCollection/SubComp/AddressSearchBar.js" />
+        <option value="$PROJECT_DIR$/client/src/styles/section.scss" />
+        <option value="$PROJECT_DIR$/client/src/view/DataCollection/SubComp/common.scss" />
+        <option value="$PROJECT_DIR$/client/src/view/DataCollection/DataCollection.scss" />
+        <option value="$PROJECT_DIR$/client/src/actions/action_history.js" />
+        <option value="$PROJECT_DIR$/client/src/index.js" />
+        <option value="$PROJECT_DIR$/client/src/styles/card.scss" />
+        <option value="$PROJECT_DIR$/client/src/actions/index.js" />
+        <option value="$PROJECT_DIR$/client/src/reducers/reducer_history.js" />
+        <option value="$PROJECT_DIR$/client/src/view/History/History.js" />
+        <option value="$PROJECT_DIR$/server/routes/index.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/server/app.js" />
+        <option value="$PROJECT_DIR$/server/bin/www.js" />
+        <option value="$PROJECT_DIR$/client/package.json" />
+        <option value="$PROJECT_DIR$/client/src/actions/action_rent.js" />
+        <option value="$PROJECT_DIR$/client/src/reducers/reducer_rent.js" />
+        <option value="$PROJECT_DIR$/client/src/reducers/index.js" />
         <option value="$PROJECT_DIR$/client/src/view/DataCollection/DataCollection.js" />
+        <option value="$PROJECT_DIR$/client/src/view/DataCollection/SubComp/ResultsContainer.js" />
+        <option value="$PROJECT_DIR$/server/package.json" />
+        <option value="$PROJECT_DIR$/server/routes/rent.js" />
       </list>
     </option>
   </component>
@@ -10525,13 +10757,14 @@
               <item name="belong-HomeOwnerLead" type="b2602c69:ProjectViewProjectNode" />
               <item name="belong-HomeOwnerLead" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="belong-HomeOwnerLead" type="b2602c69:ProjectViewProjectNode" />
               <item name="belong-HomeOwnerLead" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="belong-HomeOwnerLead" type="b2602c69:ProjectViewProjectNode" />
@@ -10576,7 +10809,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
               <item name="DataCollection" type="462c0819:PsiDirectoryNode" />
-              <item name="Form" type="462c0819:PsiDirectoryNode" />
+              <item name="SubComp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="belong-HomeOwnerLead" type="b2602c69:ProjectViewProjectNode" />
@@ -10593,6 +10826,29 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
               <item name="ProgressBar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="belong-HomeOwnerLead" type="b2602c69:ProjectViewProjectNode" />
+              <item name="belong-HomeOwnerLead" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="belong-HomeOwnerLead" type="b2602c69:ProjectViewProjectNode" />
+              <item name="belong-HomeOwnerLead" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="belong-HomeOwnerLead" type="b2602c69:ProjectViewProjectNode" />
+              <item name="belong-HomeOwnerLead" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="belong-HomeOwnerLead" type="b2602c69:ProjectViewProjectNode" />
+              <item name="belong-HomeOwnerLead" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -10620,22 +10876,22 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="project" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
-    <property name="settings.editor.selected.configurable" value="Settings.Markdown" />
+    <property name="settings.editor.selected.configurable" value="preferences.toDoOptions" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/config" />
       <recent name="$PROJECT_DIR$/client/src/view/DataCollection/Form" />
       <recent name="$PROJECT_DIR$/client/src/view" />
       <recent name="$PROJECT_DIR$/client/src/view/Instruction" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/server" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/actions" />
       <recent name="$PROJECT_DIR$/client/src/view" />
       <recent name="$PROJECT_DIR$/client/src/view/DataCollection" />
       <recent name="$PROJECT_DIR$/client/src/view/Instruction" />
       <recent name="$PROJECT_DIR$/client/src/container" />
-      <recent name="$PROJECT_DIR$/client/src/views" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -10660,7 +10916,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533870349494</updated>
-      <workItem from="1533870362706" duration="133008000" />
+      <workItem from="1533870362706" duration="183526000" />
     </task>
     <task id="LOCAL-00001" summary="push before eject">
       <created>1533986344566</created>
@@ -10718,11 +10974,18 @@
       <option name="project" value="LOCAL" />
       <updated>1534129654829</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="form function added">
+      <created>1534221552870</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1534221552870</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133008000" />
+    <option name="totallyTimeSpent" value="183526000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1080" y="-165" width="1080" height="1920" extended-state="6" />
@@ -10734,8 +10997,8 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" weight="0.32967636" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32967636" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32967636" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.32967636" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32967636" />
@@ -10787,255 +11050,16 @@
     <MESSAGE value="push before eject" />
     <MESSAGE value="layout" />
     <MESSAGE value="basic section structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="basic section structure" />
+    <MESSAGE value="form function added" />
+    <option name="LAST_COMMIT_MESSAGE" value="form function added" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.eslintrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/.eslintrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/view/App.css.map">
-      <provider editor-type-id="sourcemapFileViewerProvider" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/Instruction/Instruction.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/view/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/DataCollection/Form.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/globalStyles/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/History/History.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/Instruction/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="5" column="58" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="5" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/view/Instruction/Instruction.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/Instruction/Instruction.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/History/History.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/History/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/actions/action_addSearchHistory.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/actions/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/reducers/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/reducers/reducer_History.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/actions/history/action_addHistory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/view/Instruction/Instruction.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/view/App.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/styles/section.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/Stepper/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-475">
-          <caret line="81" column="21" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/view/Instruction/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/view/Instruction/Expand.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="647">
-          <caret line="104" column="25" selection-start-line="104" selection-start-column="25" selection-end-line="104" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/view/History/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/registerServiceWorker.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="829">
-          <caret line="57" column="41" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/view/History/StickyList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-310">
-          <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/DataCollection/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="52" column="20" lean-forward="true" selection-end-line="167" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/view/Instruction/Instruction.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/view/ProgressBar/ProgressBar.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/view/ProgressBar/ProgressBar.css.map">
       <provider editor-type-id="sourcemapFileViewerProvider" />
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/view/DataCollection/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/view/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/view/History/History.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -11068,11 +11092,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/view/DataCollection/Form/Form.css.map">
+    <entry file="file://$PROJECT_DIR$/client/src/view/DataCollection/SubComp/common.css.map">
       <provider editor-type-id="sourcemapFileViewerProvider" />
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/view/DataCollection/Form/Form.css">
+    <entry file="file://$PROJECT_DIR$/client/src/view/DataCollection/SubComp/common.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/DataCollection/Form.js">
@@ -11099,57 +11123,276 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/view/DataCollection/SubComp/TextMask.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="43" column="7" lean-forward="true" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/actions/action_step.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/view/DataCollection/Form/AddressSearchBar.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/config/credentials/prodKey.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/config/credentials/ciKey.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/config/credentials/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/config/credentials/devKey.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/view/DataCollection/Form/AddressSearchBar.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/view/DataCollection/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/Card/DataCollectionCard.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/view/DataCollection/SubComp/common.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/view/DataCollection/SubComp/AddressSearchBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/styles/section.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/view/DataCollection/SubComp/Form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/view/DataCollection/SubComp/common.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/styles/card.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/view/DataCollection/DataCollection.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/actions/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/view/History/History.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+        <state relative-caret-position="172">
+          <caret line="26" column="44" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="44" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/view/DataCollection/Form/TextMask.js">
+    <entry file="file://$PROJECT_DIR$/client/src/view/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/view/DataCollection/DataCollection.scss">
+    <entry file="file://$PROJECT_DIR$/server/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/public/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/actions/action_history.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/.eslintrc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/view/DataCollection/Form/Form.scss">
+    <entry file="file://$PROJECT_DIR$/server/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        <state relative-caret-position="306">
+          <caret line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/view/DataCollection/Form/Form.js">
+    <entry file="file://$PROJECT_DIR$/server/bin/www.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6409">
-          <caret line="229" lean-forward="true" selection-start-line="229" selection-end-line="229" />
+        <state relative-caret-position="476">
+          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/actions/action_rent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/reducers/reducer_history.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/reducers/reducer_rent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/reducers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/view/DataCollection/DataCollection.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="59" column="16" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
+        <state relative-caret-position="544">
+          <caret line="127" column="25" selection-start-line="127" selection-start-column="25" selection-end-line="127" selection-end-column="25" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/view/DataCollection/SubComp/ResultsContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/routes/rent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
         </state>
       </provider>
     </entry>

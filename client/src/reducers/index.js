@@ -1,6 +1,9 @@
 import { combineReducers } from "redux";
-import reducer_History from "./reducer_History";
+
+import reducer_history from "./reducer_history";
+import reducer_rent from "./reducer_rent";
 
 export default combineReducers({
-  history: reducer_History
+  history: reducer_history,
+  rent: reducer_rent
 });

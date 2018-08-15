@@ -1,22 +1,15 @@
 import React, { Component } from "react";
-import Form from "./Form/Form";
 import { connect } from "react-redux";
-import { addHistory } from "../../actions";
+import { addHistory, gotoStep, fetchRentZestimate } from "../../actions";
 import styles from "./DataCollection.css";
-import AddIcon from "../../../node_modules/@material-ui/icons/Add";
+import Form from "./SubComp/Form";
+import AddressSearchBar from "./SubComp/AddressSearchBar";
+import ResultsContainer from "./SubComp/ResultsContainer";
+import SendIcon from "@material-ui/icons/Send";
+import SearchIcon from "@material-ui/icons/Search";
 import Button from "@material-ui/core/Button";
 import Zoom from "@material-ui/core/Zoom";
 
-const buttonProps = [
-  {
-    color: "red",
-    icon: <AddIcon />
-  },
-  {
-    color: "blue",
-    icon: <AddIcon />
-  }
-];
 const buttonTransitionDuration = {
   enter: 1000,
   exit: 500
@@ -26,92 +19,128 @@ class DataCollection extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      stepIndex: 0,
+      //TODO change to signupComp
+      stepComp: "resultComp",
       buttonEnabled: false,
+      searchTerm: "",
       userData: {}
     };
   }
 
-  handleButtonClick = step => {
-    console.log(step);
-    if (step === 1) {
-      this.setState({ stepIndex: 0 });
+  handleButtonClick = comp => {
+    if (
+      this.state.stepComp === "searchComp" ||
+      this.state.stepComp === "resultComp"
+    ) {
+      this.props.fetchRentZestimate(this.state.searchTerm);
+      this.props.addHistory(this.state.searchTerm);
+      // action
     } else {
-      this.setState({ stepIndex: step + 1 });
+      // action
     }
+    this.setState({ stepComp: comp, buttonEnabled: false });
   };
 
   setButtonEnabled = boolean => {
     this.setState({ buttonEnabled: boolean });
   };
-  updateUserData = data => {
-    this.setState({ userData: data });
+  updateUserData = userData => {
+    this.setState({ userData });
+  };
+  updateSearchTerm = searchTerm => {
+    this.setState({ searchTerm });
   };
 
   render() {
+    const { param, data } = this.props.rent;
     return (
       <div className={styles.root}>
         <div className={styles.sectionContainer}>
           <h1 className={styles.sectionTitle}>Data Collection</h1>
-          <div
-            style={{
-              position: "relative",
-              maxHeight: 500
-              //maxWidth: 600
-            }}
-          >
-            <Form
-              //addHistory={this.props.addHistory}
-              setButtonEnabled={this.setButtonEnabled}
-              updateUserData={this.updateUserData}
-            />
-
-            {buttonProps.map((btn, index) => (
-              <Zoom
-                key={btn.color}
-                in={this.state.stepIndex === index}
-                timeout={buttonTransitionDuration}
-                style={{
-                  transitionDelay: `${
-                    this.state.value === index
-                      ? buttonTransitionDuration.exit
-                      : 0
-                  }ms`,
-                  position: "absolute",
-                  bottom: -30,
-                  right: -30
-                }}
-                unmountOnExit
+          <div className={styles.cardWrapper}>
+            {this.state.stepComp === "signUpComp" && (
+              <Form
+                setButtonEnabled={this.setButtonEnabled}
+                updateUserData={this.updateUserData}
+              />
+            )}
+            {(this.state.stepComp === "searchComp" ||
+              this.state.stepComp === "resultComp") && (
+              <AddressSearchBar
+                setButtonEnabled={this.setButtonEnabled}
+                updateSearchTerm={this.updateSearchTerm}
+              />
+            )}
+            <Zoom
+              key={"btn-1"}
+              in={this.state.stepComp === "signUpComp"}
+              timeout={buttonTransitionDuration}
+              style={{
+                position: "absolute",
+                bottom: -30,
+                right: -30
+              }}
+              unmountOnExit
+            >
+              <Button
+                //IMPORTANT
+                disabled={!this.state.buttonEnabled}
+                variant="fab"
+                color="primary"
+                aria-label="Add"
+                onClick={() => this.handleButtonClick("searchComp")}
               >
-                <Button
-                  disabled={!this.state.buttonEnabled}
-                  variant="fab"
-                  color="primary"
-                  aria-label="Add"
-                  //style={{ right: -30, bottom: -30 }}
-                  //className={btn.className}
-                  //color={btn.color}
-                  onClick={() => this.handleButtonClick(this.state.stepIndex)}
-                >
-                  {btn.icon}
-                </Button>
-              </Zoom>
-            ))}
+                <SendIcon />
+              </Button>
+            </Zoom>
+            <Zoom
+              key={"btn-2"}
+              in={
+                this.state.stepComp === "searchComp" ||
+                this.state.stepComp === "resultComp"
+              }
+              timeout={buttonTransitionDuration}
+              style={{
+                position: "absolute",
+                bottom: -30,
+                right: -30
+              }}
+              unmountOnExit
+            >
+              <Button
+                //IMPORTANT
+                disabled={!this.state.buttonEnabled}
+                variant="fab"
+                color="primary"
+                aria-label="Add"
+                onClick={() => this.handleButtonClick("resultComp")}
+              >
+                <SearchIcon />
+              </Button>
+            </Zoom>
           </div>
+          <div className={styles.cardWrapper}>
+            {this.state.stepComp === "resultComp" && (
+              <ResultsContainer rent={data} />
+            )}
+          </div>
+          <Button
+            variant="fab"
+            color="primary"
+            aria-label="Add"
+            onClick={this.props.fetchRentZestimate}
+          >
+            Test
+          </Button>
         </div>
-        {/*<Button
-          variant="fab"
-          color="primary"
-          aria-label="Add"
-          //className={classes.button}
-        >
-          <AddIcon />
-        </Button>*/}
       </div>
     );
   }
 }
+const mapStateToProps = state => {
+  return { rent: state.rent };
+};
 export default connect(
-  null,
-  { addHistory }
+  mapStateToProps,
+  { addHistory, gotoStep, fetchRentZestimate }
 )(DataCollection);
