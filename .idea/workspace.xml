@@ -10147,7 +10147,7 @@
           <entry key="gitignore" value="194" />
           <entry key="html" value="7" />
           <entry key="js" value="25714" />
-          <entry key="json" value="700" />
+          <entry key="json" value="713" />
           <entry key="jsx" value="28" />
           <entry key="md" value="736" />
           <entry key="scss" value="2589" />
@@ -10161,7 +10161,7 @@
           <entry key="CSS" value="109" />
           <entry key="Git file" value="194" />
           <entry key="HTML" value="13" />
-          <entry key="JSON" value="802" />
+          <entry key="JSON" value="815" />
           <entry key="JSX Harmony" value="28" />
           <entry key="JavaScript" value="25765" />
           <entry key="Markdown" value="736" />
@@ -10497,7 +10497,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533870349494</updated>
-      <workItem from="1533870362706" duration="243989000" />
+      <workItem from="1533870362706" duration="244238000" />
     </task>
     <task id="LOCAL-00001" summary="push before eject">
       <created>1533986344566</created>
@@ -10594,19 +10594,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="243989000" />
+    <option name="totallyTimeSpent" value="244238000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1080" y="-165" width="1080" height="1920" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21098267" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21098267" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" weight="0.32967636" />
-      <window_info anchor="bottom" x="0" y="229" width="933" height="1139" id="Terminal" visible="true" weight="0.47010422" />
+      <window_info active="true" anchor="bottom" x="0" y="229" width="933" height="1139" id="Terminal" visible="true" weight="0.47010422" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.32967636" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
