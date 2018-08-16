@@ -21,7 +21,7 @@
       max-width: 100%; } }
 
 .listContainer {
-  margin: 2rem 0;
+  margin: 2rem 0 !important;
   background: white;
   width: 100%;
   position: relative;

@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import styles from "./App.css";
-import Button from "@material-ui/core/Button";
-import Stepper from "../components/Stepper/index";
 import Instruction from "./Instruction";
 import History from "./History";
 import DataCollection from "./DataCollection";

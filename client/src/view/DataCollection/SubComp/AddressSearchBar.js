@@ -8,6 +8,7 @@ import InputAdornment from "@material-ui/core/InputAdornment";
 import List from "@material-ui/core/List";
 import LocationOn from "@material-ui/icons/LocationOn";
 import styles from "./common.css";
+import PropTypes from "prop-types";
 
 // for different error messages
 const errorBox = {
@@ -16,7 +17,7 @@ const errorBox = {
     "This request is not valid, it needs to be a string of your location"
 };
 
-class LocationSearchInput extends React.Component {
+class AddressSearchBar extends React.Component {
   constructor(props) {
     super(props);
     this.state = { address: "", address_error: null };
@@ -48,17 +49,6 @@ class LocationSearchInput extends React.Component {
 
   handleSelect = address => {
     this.setState({ address, address_error: "" });
-    /*geocodeByAddress(address)
-      .then(results => {
-        console.log(results, address);
-        this.setState({ address, address_error: "" });
-      })
-      .then(latLng => console.log("Success", latLng))
-      .catch(error => {
-        // create an error handler to display different kinds of error messages
-        this.setState({ address_error: errorBox[error] || error });
-        console.error("Error", error);
-      });*/
   };
 
   render() {
@@ -138,5 +128,9 @@ class LocationSearchInput extends React.Component {
     );
   }
 }
+AddressSearchBar.propTypes = {
+  setButtonEnabled: PropTypes.func.isRequired,
+  updateSearchTerm: PropTypes.func.isRequired
+};
 
-export default LocationSearchInput;
+export default AddressSearchBar;

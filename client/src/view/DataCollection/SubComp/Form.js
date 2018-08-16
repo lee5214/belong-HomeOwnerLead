@@ -7,7 +7,7 @@ import Email from "@material-ui/icons/Email";
 import Phone from "@material-ui/icons/Phone";
 import styles from "./common.css";
 
-class InputAdornments extends React.Component {
+class UserInputForm extends React.Component {
   state = {
     nameFirst: null,
     nameLast: null,
@@ -15,13 +15,7 @@ class InputAdornments extends React.Component {
     email_error: null,
     phone: "",
     phone_error: null,
-    textMask: "",
-
-    amount: "",
-    password: "",
-    weight: "",
-    weightRange: "",
-    showPassword: false
+    textMask: ""
   };
 
   componentDidUpdate(prevProps, prevState, snapshot) {
@@ -142,7 +136,6 @@ class InputAdornments extends React.Component {
             fullWidth
             error={!!this.state.email_error}
             label="Email"
-            //className={styles.textField}
             type="email"
             margin="normal"
             onChange={event => this.setState({ email: event.target.value })}
@@ -163,10 +156,8 @@ class InputAdornments extends React.Component {
             error={!!this.state.phone_error}
             label="Phone"
             value={this.state.phone}
-            //className={styles.textField}
             type="phone"
             margin="normal"
-            //onChange={event => this.setState({ phone: event.target.value })}
             placeholder="a valid phone number for registration"
             onBlur={this.validatePhone}
             helperText={this.state.phone_error}
@@ -183,10 +174,9 @@ class InputAdornments extends React.Component {
   }
 }
 
-InputAdornments.propTypes = {
-  setButtonEnabled: PropTypes.func.isRequired
+UserInputForm.propTypes = {
+  setButtonEnabled: PropTypes.func.isRequired,
+  updateUserData: PropTypes.func.isRequired
 };
-InputAdornments.defaultProps = {
-  //setButtonEnabled:
-};
-export default InputAdornments;
+
+export default UserInputForm;

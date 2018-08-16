@@ -33,11 +33,6 @@ const store = createStore(
 );
 let persistor = persistStore(store);
 
-/*const store = createStore(
-  rootReducer,
-  composeWithDevTools(applyMiddleware(thunk))
-);*/
-
 /*
  *  css module with jss
  */

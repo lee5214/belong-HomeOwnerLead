@@ -55,7 +55,7 @@ class DataCollection extends Component {
       this.props.gotoStep("signUpStep");
     }
   }
-  componentDidUpdate(prevProps, prevState, snapshot) {
+  componentDidUpdate(prevProps) {
     if (this.props.rentData && this.props.rentData !== prevProps.rentData) {
       this.setState({ stepComp: "resultStep" });
       this.props.gotoStep("resultStep");
@@ -79,7 +79,7 @@ class DataCollection extends Component {
   };
   handleSubmit = () => {
     const { nameFirst, phone, email } = this.state.userData;
-    const ip = this.props.ip.toString() || "0.0.0.0";
+    const ip = this.props.ip || "0.0.0.0";
     const text = `
     Thank you for sign up
     name: ${nameFirst} 
@@ -107,11 +107,9 @@ class DataCollection extends Component {
     axios
       .post("/email", param)
       .then(res => {
-        console.log(res);
         this.setState({ signUpStatus: true });
       })
       .catch(error => {
-        console.log(error);
         this.setState({ signUpStatus: false });
       });
     this.props.gotoStep("submitStep");
@@ -133,7 +131,6 @@ class DataCollection extends Component {
   };
 
   render() {
-    console.log(this.state.range);
     return (
       <div className={styles.root}>
         <div className={styles.sectionContainer}>
@@ -204,7 +201,6 @@ class DataCollection extends Component {
           </div>
           <div className={styles.cardWrapper} style={{ zIndex: 0 }}>
             {this.state.stepComp === "resultStep" && (
-              //Object.keys(this.props.rentData).length > 0 &&
               <div>
                 <ResultsContainer
                   rentData={this.props.rentData}

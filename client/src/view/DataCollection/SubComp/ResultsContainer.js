@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import styles from "./common.css";
+import AddressSearchBar from "./AddressSearchBar";
 class ResultsContainer extends Component {
   state = { low: 0, high: 0 };
 
@@ -33,7 +34,6 @@ class ResultsContainer extends Component {
       address,
       citystatezip
     } = this.props.rentData;
-    console.log(this.props.rentData);
     return (
       <div className={`${styles.card} ${styles.resultsContainer}`}>
         {error ? (
@@ -74,7 +74,9 @@ class ResultsContainer extends Component {
   }
 }
 ResultsContainer.propTypes = {
-  rentData: PropTypes.object
+  rentData: PropTypes.object,
+  updateRange: PropTypes.func.isRequired,
+  searchTerm: PropTypes.func.isRequired
 };
 ResultsContainer.defaultProps = {
   rentData: {}
