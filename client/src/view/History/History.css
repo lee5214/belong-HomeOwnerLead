@@ -1,5 +1,6 @@
 .sectionContainer {
   height: 100%;
+  width: 100%;
   margin: auto;
   padding: 1rem; }
 
@@ -20,6 +21,8 @@
       max-width: 100%; } }
 
 .listContainer {
+  margin: 2rem 0;
+  background: white;
   width: 100%;
   position: relative;
   overflow: auto;

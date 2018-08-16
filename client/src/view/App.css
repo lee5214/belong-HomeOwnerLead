@@ -1,5 +1,4 @@
 .app {
-  background: #e3e3e3;
   max-width: 1200px;
   min-width: 600px;
   margin: 0 auto;
@@ -25,7 +24,8 @@
 
 .instruction {
   height: 400px;
-  flex: 0 0 70%; }
+  flex: 0 0 70%;
+  background: linear-gradient(-45deg, #dcfff2, #ffffff); }
   @media screen and (max-width: 1000px) {
     .instruction {
       flex: 1;
@@ -33,21 +33,23 @@
 
 .history {
   height: 400px;
-  flex: 0 0 30%; }
+  flex: 0 0 30%;
+  background: linear-gradient(45deg, #dcfff2, #ffffff); }
   @media screen and (max-width: 1000px) {
     .history {
       flex: 1;
       width: 100%; } }
 
 .dataCollection {
-  flex: 1 0 80%; }
+  flex: 1 0 70%;
+  background: linear-gradient(-135deg, #dcfff2, #ffffff); }
   @media screen and (max-width: 1000px) {
     .dataCollection {
       flex: 1;
       width: 100%; } }
 
 .progressBar {
-  flex: 1 0 20%;
+  flex: 1 0 30%;
   background: white;
   width: 100px; }
   @media screen and (max-width: 1000px) {

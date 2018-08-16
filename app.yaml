@@ -1,0 +1,15 @@
+env: flex
+runtime: nodejs
+env_variables:
+  NODE_ENV:  production
+  cookieKey: "lee5214cookiejgafnmlvcxlnmvomoprefmioearsjvziasndfksdmg"
+  zillowKey: "X1-ZWz18f9udv03kb_2avji"
+  sendGridKey: "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"
+manual_scaling:
+  instances: 1
+resources:
+  cpu: 1
+  memory_gb: 0.5
+  disk_size_gb: 10
+health_check:
+  enable_health_check: false

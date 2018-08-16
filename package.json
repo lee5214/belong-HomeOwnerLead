@@ -4,10 +4,13 @@
   "author": "CongLi",
   "private": true,
   "scripts": {
-    "start": "node ./server/bin/www",
+    "start": "server:prod",
     "client:dev": "NODE_ENV=dev cd client && npm start",
-    "server:dev": "NODE_ENV=dev cd server && npm start",
-    "dev": "concurrently \" npm run client:dev \" \" npm run server:dev \" "
+    "client-build": "npm install --prefix client && npm run build --prefix client",
+    "server:dev": "NODE_ENV=development cd server && npm start",
+    "server:prod": "NODE_ENV=production node server/bin/www",
+    "dev": "concurrently \" npm run client:dev \" \" npm run server:dev \" ",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "devDependencies": {
     "concurrently": "^3.6.1",

@@ -9,11 +9,13 @@ import List from "@material-ui/core/List";
 import LocationOn from "@material-ui/icons/LocationOn";
 import styles from "./common.css";
 
+// for different error messages
 const errorBox = {
   ZERO_RESULTS: "Couldn't find any related addresses, please try another",
   INVALID_REQUEST:
     "This request is not valid, it needs to be a string of your location"
 };
+
 class LocationSearchInput extends React.Component {
   constructor(props) {
     super(props);
@@ -38,10 +40,15 @@ class LocationSearchInput extends React.Component {
 
   handleChange = address => {
     this.setState({ address });
+    this.setState({ address_error: "" });
+    if (address === "") {
+      this.setState({ address_error: null });
+    }
   };
 
   handleSelect = address => {
-    geocodeByAddress(address)
+    this.setState({ address, address_error: "" });
+    /*geocodeByAddress(address)
       .then(results => {
         console.log(results, address);
         this.setState({ address, address_error: "" });
@@ -51,7 +58,7 @@ class LocationSearchInput extends React.Component {
         // create an error handler to display different kinds of error messages
         this.setState({ address_error: errorBox[error] || error });
         console.error("Error", error);
-      });
+      });*/
   };
 
   render() {
@@ -61,6 +68,10 @@ class LocationSearchInput extends React.Component {
           value={this.state.address}
           onChange={this.handleChange}
           onSelect={this.handleSelect}
+          onError={(status, clearSuggestions) => {
+            this.setState({ address_error: errorBox[status] || status });
+            clearSuggestions();
+          }}
         >
           {({
             getInputProps,
