@@ -4,7 +4,7 @@ const cookieParser = require("cookie-parser");
 const logger = require("morgan");
 const cors = require("cors");
 
-const indexRouter = require("./routes/index");
+const ipRouter = require("./routes/ip");
 const rentRouter = require("./routes/rent");
 const emailRouter = require("./routes/email");
 
@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 //app.use(express.static(path.join(__dirname, "public")));
 
-app.use("/", indexRouter);
+app.use("/ip", ipRouter);
 app.use("/rent", rentRouter);
 app.use("/email", emailRouter);
 
