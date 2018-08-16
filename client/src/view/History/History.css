@@ -22,7 +22,7 @@
 
 .listContainer {
   margin: 2rem 0 !important;
-  background: white;
+  background: white !important;
   width: 100%;
   position: relative;
   overflow: auto;

@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="362b722b-174b-4311-99e7-59d29961b853" name="Default Changelist" comment="deployment">
-      <change afterPath="$PROJECT_DIR$/client/src/view/ProgressBar/ProgressBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/view/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/view/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/view/DataCollection/DataCollection.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/view/DataCollection/DataCollection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/view/DataCollection/SubComp/AddressSearchBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/view/DataCollection/SubComp/AddressSearchBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/view/DataCollection/SubComp/Form.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/view/DataCollection/SubComp/Form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/view/DataCollection/SubComp/ResultsContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/view/DataCollection/SubComp/ResultsContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/view/DataCollection/SubComp/common.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/view/DataCollection/SubComp/common.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/view/DataCollection/SubComp/common.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/view/DataCollection/SubComp/common.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/view/History/History.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/view/History/History.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/view/ProgressBar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/view/ProgressBar/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/email.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/email.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/rent.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/rent.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -10122,7 +10105,7 @@
           <entry key="eslintrc" value="18" />
           <entry key="gitignore" value="9" />
           <entry key="html" value="4" />
-          <entry key="js" value="269" />
+          <entry key="js" value="273" />
           <entry key="json" value="51" />
           <entry key="jsx" value="4" />
           <entry key="map" value="3" />
@@ -10142,7 +10125,7 @@
           <entry key="JSON" value="69" />
           <entry key="JSX Harmony" value="4" />
           <entry key="Jade" value="3" />
-          <entry key="JavaScript" value="271" />
+          <entry key="JavaScript" value="275" />
           <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SCSS" value="61" />
@@ -10167,7 +10150,7 @@
           <entry key="json" value="723" />
           <entry key="jsx" value="28" />
           <entry key="md" value="736" />
-          <entry key="scss" value="2594" />
+          <entry key="scss" value="2605" />
           <entry key="txt" value="100" />
           <entry key="www" value="59" />
           <entry key="yaml" value="11" />
@@ -10183,7 +10166,7 @@
           <entry key="JavaScript" value="26218" />
           <entry key="Markdown" value="736" />
           <entry key="PLAIN_TEXT" value="102" />
-          <entry key="SCSS" value="2594" />
+          <entry key="SCSS" value="2605" />
           <entry key="YAML" value="11" />
         </counts>
       </usages-collector>
@@ -10191,45 +10174,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/view/DataCollection/DataCollection.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2754">
-              <caret line="81" column="23" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/view/ProgressBar/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/view/DataCollection/SubComp/common.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/view/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-14">
-              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
@@ -10260,8 +10204,44 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/src/view/History/History.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            <state relative-caret-position="144">
+              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/actions/action_user.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/actions/action_step.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="5" lean-forward="true" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/actions/action_rent.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/actions/action_ip.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -10269,8 +10249,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/view/History/History.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="549">
+              <caret line="20" column="23" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="23" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -10614,7 +10594,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533870349494</updated>
-      <workItem from="1533870362706" duration="248882000" />
+      <workItem from="1533870362706" duration="249606000" />
     </task>
     <task id="LOCAL-00001" summary="push before eject">
       <created>1533986344566</created>
@@ -10711,7 +10691,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="248882000" />
+    <option name="totallyTimeSpent" value="249606000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1080" y="-165" width="1080" height="1920" extended-state="6" />
@@ -10719,15 +10699,15 @@
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28612718" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28612718" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" weight="0.32967636" />
-      <window_info anchor="bottom" x="0" y="229" width="933" height="1139" id="Terminal" weight="0.47010422" />
+      <window_info active="true" anchor="bottom" x="0" y="229" width="933" height="1139" id="Terminal" visible="true" weight="0.47010422" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.32967636" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32967636" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32967636" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32967636" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -10831,34 +10811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/actions/action_step.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="5" lean-forward="true" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/actions/action_user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/actions/action_rent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="564">
-          <caret line="17" column="68" selection-start-line="16" selection-start-column="12" selection-end-line="17" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/actions/action_ip.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -11102,13 +11054,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -11126,10 +11071,45 @@
     <entry file="file://$PROJECT_DIR$/client/src/view/History/History.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/actions/action_user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/actions/action_step.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="5" lean-forward="true" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/actions/action_ip.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/actions/action_rent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/view/History/History.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="549">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="23" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -11138,8 +11118,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/view/History/History.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        <state relative-caret-position="144">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
         </state>
       </provider>
     </entry>
