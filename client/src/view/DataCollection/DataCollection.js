@@ -4,7 +4,8 @@ import {
   saveUser,
   addHistory,
   gotoStep,
-  fetchRentZestimate
+  fetchRentZestimate,
+  fetchIP
 } from "../../actions";
 import styles from "./DataCollection.css";
 import Form from "./SubComp/Form";
@@ -43,6 +44,9 @@ class DataCollection extends Component {
     };
   }
   componentDidMount() {
+    if (!this.props.ip) {
+      this.props.fetchIP();
+    }
     if (this.props.user) {
       this.setState({ stepComp: "searchStep" });
       this.props.gotoStep("searchStep");
@@ -75,6 +79,7 @@ class DataCollection extends Component {
   };
   handleSubmit = () => {
     const { nameFirst, phone, email } = this.state.userData;
+    const ip = this.props.ip.toString() || "0.0.0.0";
     const text = `
     Thank you for sign up
     name: ${nameFirst} 
@@ -87,7 +92,8 @@ class DataCollection extends Component {
     <p>name: ${nameFirst}</p> 
     <p>phone: ${phone}</p> 
     <p>email: ${email}</p> 
-    <p>address: ${this.state.searchTerm}</p> 
+    <p>address: ${this.state.searchTerm}</p>
+    <p>IP: ${ip}</p> 
     <p>range: ${this.state.range}</p> 
     <p>expected rent: ${this.state.expectedNum}</p>
     `;
@@ -253,9 +259,9 @@ class DataCollection extends Component {
   }
 }
 const mapStateToProps = state => {
-  return { rentData: state.rentData, user: state.user };
+  return { rentData: state.rentData, user: state.user, ip: state.ip };
 };
 export default connect(
   mapStateToProps,
-  { saveUser, addHistory, gotoStep, fetchRentZestimate }
+  { saveUser, addHistory, gotoStep, fetchRentZestimate, fetchIP }
 )(DataCollection);
