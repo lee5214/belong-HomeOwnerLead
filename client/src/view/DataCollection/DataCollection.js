@@ -8,7 +8,7 @@ import {
   fetchIP
 } from "../../actions";
 import styles from "./DataCollection.css";
-import Form from "./SubComp/Form";
+import SignUp from "./SubComp/SignUp/SignUp";
 import AddressSearchBar from "./SubComp/AddressSearchBar";
 import ResultsContainer from "./SubComp/ResultsContainer";
 import TextField from "@material-ui/core/TextField";
@@ -61,6 +61,11 @@ class DataCollection extends Component {
       this.props.gotoStep("resultStep");
     }
   }
+
+  handleSignUp = step => {
+    this.props.gotoStep(step);
+    this.props.saveUser(this.state.userData);
+  };
 
   handleButtonClick = step => {
     this.props.gotoStep(step);
@@ -133,122 +138,71 @@ class DataCollection extends Component {
   render() {
     return (
       <div className={styles.root}>
-        <div className={styles.sectionContainer}>
-          <h1 className={styles.sectionTitle}>Data Collection</h1>
-          <div className={styles.cardWrapper} style={{ zIndex: 1 }}>
-            {this.state.stepComp === "signUpStep" && (
-              <Form
-                setButtonEnabled={this.setButtonEnabled}
-                updateUserData={this.updateUserData}
-              />
-            )}
-            {(this.state.stepComp === "searchStep" ||
+        <span className={styles.bottomDivider} />
+        <div className={styles.cardWrapper} style={{ zIndex: 1 }}>
+          {this.state.stepComp === "signUpStep" && (
+            <SignUp
+              setButtonEnabled={this.setButtonEnabled}
+              updateUserData={this.updateUserData}
+              handleSignUp={this.handleSignUp}
+            />
+          )}
+          {(this.state.stepComp === "searchStep" ||
+            this.state.stepComp === "resultStep" ||
+            this.state.stepComp === "submitStep") && (
+            <AddressSearchBar
+              setButtonEnabled={this.setButtonEnabled}
+              updateSearchTerm={this.updateSearchTerm}
+            />
+          )}
+          <Zoom
+            key={"btn-1"}
+            in={this.state.stepComp === "signUpStep"}
+            timeout={buttonTransitionDuration}
+            style={{
+              position: "absolute",
+              bottom: -30,
+              right: -30
+            }}
+            unmountOnExit
+          >
+            <Button
+              //IMPORTANT
+              disabled={!this.state.buttonEnabled}
+              variant="fab"
+              color="primary"
+              aria-label="Add"
+              onClick={() => this.handleButtonClick("searchStep")}
+            >
+              <SendIcon />
+            </Button>
+          </Zoom>
+          <Zoom
+            key={"btn-2"}
+            in={
+              this.state.stepComp === "searchStep" ||
               this.state.stepComp === "resultStep" ||
-              this.state.stepComp === "submitStep") && (
-              <AddressSearchBar
-                setButtonEnabled={this.setButtonEnabled}
-                updateSearchTerm={this.updateSearchTerm}
-              />
-            )}
-            <Zoom
-              key={"btn-1"}
-              in={this.state.stepComp === "signUpStep"}
-              timeout={buttonTransitionDuration}
-              style={{
-                position: "absolute",
-                bottom: -30,
-                right: -30
-              }}
-              unmountOnExit
+              this.state.stepComp === "submitStep"
+            }
+            timeout={buttonTransitionDuration}
+            style={{
+              position: "absolute",
+              bottom: -30,
+              right: -30
+            }}
+            unmountOnExit
+          >
+            <Button
+              //IMPORTANT
+              disabled={!this.state.buttonEnabled}
+              variant="fab"
+              color="primary"
+              aria-label="Add"
+              onClick={() => this.handleButtonClick("resultStep")}
             >
-              <Button
-                //IMPORTANT
-                disabled={!this.state.buttonEnabled}
-                variant="fab"
-                color="primary"
-                aria-label="Add"
-                onClick={() => this.handleButtonClick("searchStep")}
-              >
-                <SendIcon />
-              </Button>
-            </Zoom>
-            <Zoom
-              key={"btn-2"}
-              in={
-                this.state.stepComp === "searchStep" ||
-                this.state.stepComp === "resultStep" ||
-                this.state.stepComp === "submitStep"
-              }
-              timeout={buttonTransitionDuration}
-              style={{
-                position: "absolute",
-                bottom: -30,
-                right: -30
-              }}
-              unmountOnExit
-            >
-              <Button
-                //IMPORTANT
-                disabled={!this.state.buttonEnabled}
-                variant="fab"
-                color="primary"
-                aria-label="Add"
-                onClick={() => this.handleButtonClick("resultStep")}
-              >
-                <SearchIcon />
-              </Button>
-            </Zoom>
-          </div>
-          <div className={styles.cardWrapper} style={{ zIndex: 0 }}>
-            {this.state.stepComp === "resultStep" && (
-              <div>
-                <ResultsContainer
-                  rentData={this.props.rentData}
-                  updateRange={this.updateRange}
-                  searchTerm={this.state.searchTerm}
-                >
-                  <div style={{ textAlign: "right" }}>
-                    <Button
-                      variant="outlined"
-                      color="primary"
-                      onClick={() => this.handleDialogOpen(true)}
-                    >
-                      Expect Different?
-                    </Button>
-                    <Dialog
-                      open={this.state.dialogOpen}
-                      onClose={() => this.handleDialogOpen(false)}
-                    >
-                      <DialogTitle id="form-dialog-title">
-                        Wait a second,
-                      </DialogTitle>
-                      <DialogContent>
-                        <DialogContentText>
-                          Price doesn't fit? Input your number and let me help.
-                        </DialogContentText>
-                        <TextField
-                          autoFocus
-                          margin="dense"
-                          id="expected"
-                          label="My monthly rent is"
-                          type="number"
-                          fullWidth
-                          onChange={event =>
-                            this.setState({ expectedNum: event.target.value })
-                          }
-                        />
-                      </DialogContent>
-                      <DialogActions>
-                        <Button onClick={this.handleSubmit} color="secondary">
-                          Submit
-                        </Button>
-                      </DialogActions>
-                    </Dialog>
-                  </div>
-                </ResultsContainer>
-              </div>
-            )}
-          </div>
+              <SearchIcon />
+            </Button>
+          </Zoom>
         </div>
       </div>
     );

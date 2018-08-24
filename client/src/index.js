@@ -28,10 +28,11 @@ const persistConfig = {
 const persistedReducer = persistReducer(persistConfig, rootReducer);
 
 const store = createStore(
-  persistedReducer,
+  //persistedReducer,
+  rootReducer,
   composeWithDevTools(applyMiddleware(thunk))
 );
-let persistor = persistStore(store);
+//let persistor = persistStore(store);
 
 /*
  *  css module with jss
@@ -42,11 +43,14 @@ jss.options.insertionPoint = "insertion-point-jss";
 
 const AppContainer = () => (
   <Provider store={store}>
-    <PersistGate loading={null} persistor={persistor}>
-      <JssProvider jss={jss} generateClassName={generateClassName}>
-        <App />
-      </JssProvider>
-    </PersistGate>
+    {/*<PersistGate
+      loading={null}
+      persistor={persistor}
+    >*/}
+    <JssProvider jss={jss} generateClassName={generateClassName}>
+      <App />
+    </JssProvider>
+    {/*</PersistGate>*/}
   </Provider>
 );
 ReactDOM.render(<AppContainer />, document.getElementById("root"));

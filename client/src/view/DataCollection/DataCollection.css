@@ -21,7 +21,8 @@
       max-width: 100%; } }
 
 .root {
-  height: calc(100vh - 404px - 2rem); }
+  flex-direction: column;
+  height: 100%; }
   @media screen and (max-width: 1000px) {
     .root {
       min-height: auto; } }
@@ -29,10 +30,9 @@
 .resultsContainer {
   margin-top: 2rem; }
 
-.cardWrapper {
-  position: relative;
-  max-height: 500px;
-  max-width: 600px;
-  margin: 0 auto; }
+.bottomDivider {
+  height: 2px;
+  width: 1024px;
+  background-color: #EAEAEA; }
 
 /*# sourceMappingURL=DataCollection.css.map */
