@@ -1,30 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="362b722b-174b-4311-99e7-59d29961b853" name="Default Changelist" comment="deployment">
-      <change afterPath="$PROJECT_DIR$/client/src/assets/ic_profile_email@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/ic_profile_firstname@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/ic_profile_password@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/assets/ic_profile_phone@3x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/HeaderContainer/HeaderContainer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/HeaderContainer/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/view/App-step1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/view/App-step1.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/view/DataCollection/SubComp/SignUp/SignUp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/view/DataCollection/SubComp/SignUp/SignUp.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/congli.xml" beforeDir="false" />
+    <list default="true" id="362b722b-174b-4311-99e7-59d29961b853" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/view/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/view/App-step1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/view/App.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/view/App-step1.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/view/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/view/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/view/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/view/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/view/DataCollection/DataCollection.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/view/DataCollection/DataCollection.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/view/DataCollection/DataCollection.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/view/DataCollection/DataCollection.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/view/DataCollection/DataCollection.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/view/DataCollection/DataCollection.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/view/DataCollection/DataCollection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/view/DataCollection/DataCollection.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/view/DataCollection/SubComp/Form.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -10303,8 +10281,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/src/styles/card.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            <state relative-caret-position="170">
+              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -10437,8 +10415,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="412" />
-    <option name="width" value="1080" />
+    <option name="x" value="-974" />
+    <option name="y" value="-170" />
+    <option name="width" value="895" />
     <option name="height" value="929" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -10543,7 +10522,7 @@
       <workItem from="1534580671469" duration="596000" />
       <workItem from="1534638194545" duration="4907000" />
       <workItem from="1535056009392" duration="973000" />
-      <workItem from="1535058630122" duration="12773000" />
+      <workItem from="1535058630122" duration="13992000" />
     </task>
     <task id="LOCAL-00001" summary="push before eject">
       <created>1533986344566</created>
@@ -10643,17 +10622,24 @@
       <option name="project" value="LOCAL" />
       <updated>1534919796273</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="deployment">
+      <created>1535092925173</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1535092925173</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="276852000" />
+    <option name="totallyTimeSpent" value="278071000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="412" width="1080" height="929" extended-state="0" />
+    <frame x="-974" y="-170" width="895" height="929" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22639692" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27549824" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -11066,8 +11052,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/styles/card.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        <state relative-caret-position="170">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
         </state>
       </provider>
     </entry>
